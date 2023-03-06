@@ -1,0 +1,20 @@
+.todo-form {
+    display: flex;
+    gap: 2rem;
+    margin-inline: auto;
+    max-width: fit-content;
+}
+
+.todo-form__title {
+    border: 2px solid var(--clr-primary);
+    border-radius: 5vw;
+    padding-inline: 0.5rem;
+}
+
+.todo-form__button {
+    background-color: transparent;
+    border: 2px solid var(--clr-primary);
+    border-radius: 5vw;
+    color: var(--clr-primary);
+    padding: 0.25rem 1rem;
+}
